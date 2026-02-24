@@ -1,0 +1,5 @@
+Unterschiede zwischen Aufgabe 3 und 4:
+- In Aufgabe 3 waren alle Dateien mit '??' markiert (untracked).
+- In Aufgabe 4 haben foo.txt und bar.txt den Status 'A' (Added).
+- Das bedeutet, sie befinden sich nun in der Staging Area.
+- qux.txt ist weiterhin untracked (??).
