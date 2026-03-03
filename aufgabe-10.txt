@@ -1,0 +1,5 @@
+1. Unterschied beim Löschen: rm löscht nur die Datei, Git merkt es aber noch nicht für den nächsten Commit vor. git rm löscht die Datei und stagt diese Änderung sofort.
+
+2. Rückgängig machen: Bei rm reicht ein git checkout. Bei git rm muss man erst git reset machen, um die Vormerkung aufzuheben.
+
+3. Umbenennen: git mv ist vorzuziehen. Es behält die History der Datei bei und spart Arbeitsschritte, da die Umbenennung direkt im Staging-Bereich landet.

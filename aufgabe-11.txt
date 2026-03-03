@@ -1,0 +1,5 @@
+Fall 1 (Überblick): git log --oneline --graph --decorate (Zeigt eine kompakte, grafische Übersicht der Commits und Branches).
+
+Fall 2 (Details): git log -p -2 (Zeigt die inhaltlichen Änderungen der letzten zwei Commits an).
+
+Fall 3 (Zeitraum): git log --since="2026-03-01" (Zeigt alle Commits ab einem bestimmten Datum an).
